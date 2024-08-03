@@ -79,4 +79,8 @@ require("lazy").setup({
 	{
 		"sainnhe/gruvbox-material"
 	}, --Gruvbox
+
+	{
+		"nvim-telescope/telescope.nvim"
+	},
 })

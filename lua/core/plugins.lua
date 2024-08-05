@@ -73,14 +73,23 @@ require("lazy").setup({
 	{
 		"akinsho/toggleterm.nvim"	
 	}, --Toggleterm
+	
+	{
+		"windwp/nvim-ts-autotag"
+	}, -- Autotag
+	
+	{
+		"epwalsh/obsidian.nvim"
+	}, --Obsidian 
 
+	{
+		"nvim-telescope/telescope.nvim"
+	}, --Telescope 
+	
 --Colorshames	
 
 	{
 		"sainnhe/gruvbox-material"
 	}, --Gruvbox
 
-	{
-		"nvim-telescope/telescope.nvim"
-	},
 })

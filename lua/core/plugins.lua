@@ -77,10 +77,6 @@ require("lazy").setup({
 	{
 		"windwp/nvim-ts-autotag"
 	}, -- Autotag
-	
-	{
-		"epwalsh/obsidian.nvim"
-	}, --Obsidian 
 
 	{
 		"nvim-telescope/telescope.nvim"
@@ -91,5 +87,10 @@ require("lazy").setup({
 	{
 		"sainnhe/gruvbox-material"
 	}, --Gruvbox
+	
+	{
+		"catppuccin/nvim",
+		name = "catppuccin"
 
+	} --Catppuccin
 })

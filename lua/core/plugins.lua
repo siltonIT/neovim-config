@@ -17,13 +17,13 @@ vim.opt.rtp:prepend(lazypath)
 --Connection plugins and colorshemes
 require("lazy").setup({
 	{
-    		"nvim-neo-tree/neo-tree.nvim",
-    		branch = "v3.x",
-    		dependencies = {
-      			"nvim-lua/plenary.nvim",
-      			"nvim-tree/nvim-web-devicons",
+    	"nvim-neo-tree/neo-tree.nvim",
+    	branch = "v3.x",
+    	dependencies = {
+      	"nvim-lua/plenary.nvim",
+      	"nvim-tree/nvim-web-devicons",
 			"MunifTanjim/nui.nvim",
-    		}
+    	}
 	}, --NeoTree
 
 	{
@@ -53,8 +53,8 @@ require("lazy").setup({
 
 	{
 		"windwp/nvim-autopairs",
-    		event = "InsertEnter",
-   	 	config = true
+    	event = "InsertEnter",
+   	config = true
 	}, --Autopairs
 
 	{

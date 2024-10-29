@@ -82,6 +82,10 @@ require("lazy").setup({
 		"nvim-telescope/telescope.nvim"
 	}, --Telescope 
 	
+	{
+		"smjonas/inc-rename.nvim"
+	}, --inc-rename
+
 --Colorshames	
 
 	{

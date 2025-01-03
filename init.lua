@@ -1,7 +1,6 @@
 --Core
 require("core.plugins")
 require("core.mappings")
-require("core.colorsheme")
 require("core.config")
 
 --Config

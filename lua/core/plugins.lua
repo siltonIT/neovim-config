@@ -89,12 +89,18 @@ require("lazy").setup({
 --Colorshames	
 
 	{
-		"sainnhe/gruvbox-material"
+		"sainnhe/gruvbox-material",
+		name =  "gruvbox"
 	}, --Gruvbox
 	
 	{
 		"catppuccin/nvim",
 		name = "catppuccin"
+	}, --Catppuccin
 
-	} --Catppuccin
+	{
+		"HoNamDuong/hybrid.nvim",
+		name = "hybrid"
+	},
+
 })
